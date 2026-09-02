@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment
+.env
+.env.local
+.env.production
+*.env
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python venv
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Vite scaffold leftovers (not part of the application)
+frontend/src/counter.ts
+frontend/src/style.css
+frontend/src/assets/hero.png
+frontend/src/assets/typescript.svg
+frontend/src/assets/vite.svg
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
